@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <!-- Title: changed to black for visibility -->
+    <TextView
+        android:id="@+id/txtMode"
+        android:text="COUNTING NUMBER"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Easy Button -->
+    <Button
+        android:id="@+id/btnEasy"
+        android:text="Easy (0–10)"
+        android:textColor="@color/onPrimary"
+        android:background="@drawable/btn_primary"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+    <!-- Hard Button -->
+    <Button
+        android:id="@+id/btnHard"
+        android:text="Hard (0–99)"
+        android:textColor="@color/onPrimary"
+        android:background="@drawable/btn_primary"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+</LinearLayout>

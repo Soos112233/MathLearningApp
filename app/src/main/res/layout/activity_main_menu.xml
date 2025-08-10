@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <TextView
+        android:text="MATH PLAYGROUND"
+        android:textSize="22sp"
+        android:textColor="@color/primary"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCounting"
+        android:text="Counting Number"
+        android:textColor="@color/onPrimary"
+        android:background="@drawable/btn_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnNumber"
+        android:text="Number Recognition"
+        android:textColor="@color/onPrimary"
+        android:background="@drawable/btn_primary"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnMissing"
+        android:text="Missing Number"
+        android:textColor="@color/onPrimary"
+        android:background="@drawable/btn_primary"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/chkSound"
+        android:text="Sound On"
+        android:textColor="@color/primary"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

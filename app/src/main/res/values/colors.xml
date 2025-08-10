@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_start">#0F172A</color>
+    <color name="bg_end">#1E293B</color>
+    <color name="panel">#111827</color>
+    <color name="onPanel">#FFFFFF</color>
+    <color name="primary">#7BC5FF</color>
+    <color name="onPrimary">#0B1220</color>
+    <color name="accent">#FFD166</color>
+</resources>
+
+
